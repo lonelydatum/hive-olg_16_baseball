@@ -21,7 +21,6 @@ function start() {
 
 	tl.add('t2');
 	tl.staggerFrom('#text2 img', .3, { x: '+=50', opacity: 0 }, .1, 't2-=.33');
-	tl.to('#logo_proline', .3, { y: data.logoY || "+=0" }, "t2");
 
 	tl.add("end", '+=.5');
 	tl.from([".footer", ".odds"], .3, { opacity: 0 }, 'end');
