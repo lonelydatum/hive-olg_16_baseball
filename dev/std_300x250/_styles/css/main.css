@@ -188,10 +188,6 @@ sup {
   pointer-events: none;
 }
 
-.frame1 {
-  opacity: 1;
-}
-
 .frame1 .logos {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
