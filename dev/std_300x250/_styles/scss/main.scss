@@ -5,11 +5,37 @@
 
 
 .frame1 {
-	// opacity: 1;
+	opacity: 1;
 	.logos{
 		transform-origin: 50% 50%;
 		@include pos-scale(87, 74, .5);
 
+	}
+
+	#text1{
+		@include pos(175, 45);
+		.t1b{
+			@include pos-scale(70, 0, 0.5);
+		}
+		.t1c{
+			@include pos-scale(19, 26, 0.5);
+		}
+	}
+
+	#text2{
+		@include pos(147, 45);
+		.t2a{
+			@include pos-scale(27, 6, 0.5);
+		}
+		.t2b{
+			@include pos-scale(90, 6, 0.5);
+		}
+		.t2c{
+			@include pos-scale(3, 28, 0.5);
+		}
+		.t2d{
+			@include pos-scale(87, 28, 0.5);
+		}
 	}
 }
 

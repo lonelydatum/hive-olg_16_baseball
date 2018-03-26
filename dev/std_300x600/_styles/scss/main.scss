@@ -1,0 +1,40 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	.logos{
+		transform-origin: 50% 50%;
+		@include pos-scale(-48, 88, .5);
+
+	}
+
+	.hero{
+		transform-origin: 150px 840px;
+		@include pos-scale(-75, -420, .5);
+		
+	}
+}
+
+
+
+
+
+#banner{	
+	width: 300px;
+	height: 600px;
+}
+
+
+
+#legalBtn{	
+	@include pos(1, 556);
+	// opacity: 1;
+	width: 36px;
+	height: 25px;
+	background-color: red;
+	opacity: 0;
+}
