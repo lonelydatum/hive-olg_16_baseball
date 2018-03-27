@@ -1,6 +1,10 @@
 (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
+Object.defineProperty(exports, '__esModule', {
+	value: true
+});
+
 TweenLite.defaultEase = Power2.easeInOut;
 function start() {
 
@@ -27,11 +31,21 @@ function start() {
 	tl.set('#legalBtn', { display: 'block' });
 }
 
-start();
+exports['default'] = start;
+module.exports = exports['default'];
 
-module.exports = {};
+},{}],2:[function(require,module,exports){
+'use strict';
 
-},{}]},{},[1])
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var _commonJsCommonJs = require('../../_common/js/common.js');
+
+var _commonJsCommonJs2 = _interopRequireDefault(_commonJsCommonJs);
+
+(0, _commonJsCommonJs2['default'])();
+
+},{"../../_common/js/common.js":1}]},{},[2])
 
 
 //# sourceMappingURL=main.js.map
