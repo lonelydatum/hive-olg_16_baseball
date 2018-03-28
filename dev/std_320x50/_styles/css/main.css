@@ -199,10 +199,6 @@ sup {
   position: absolute;
 }
 
-.frame1 {
-  opacity: 1;
-}
-
 .frame1 .logos {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
@@ -284,9 +280,9 @@ sup {
 }
 
 .frame1 #text2 .t2b {
-  -webkit-transform: translate(49px, 1px) scale(0.5, 0.5);
-  -ms-transform: translate(49px, 1px) scale(0.5, 0.5);
-  transform: translate(49px, 1px) scale(0.5, 0.5);
+  -webkit-transform: translate(50px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(50px, 0px) scale(0.5, 0.5);
+  transform: translate(50px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -295,9 +291,9 @@ sup {
 }
 
 .frame1 #text2 .t2c {
-  -webkit-transform: translate(74px, 1px) scale(0.5, 0.5);
-  -ms-transform: translate(74px, 1px) scale(0.5, 0.5);
-  transform: translate(74px, 1px) scale(0.5, 0.5);
+  -webkit-transform: translate(73px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(73px, 0px) scale(0.5, 0.5);
+  transform: translate(73px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -306,9 +302,9 @@ sup {
 }
 
 .frame1 #text2 .t2d {
-  -webkit-transform: translate(141px, 0px) scale(0.5, 0.5);
-  -ms-transform: translate(141px, 0px) scale(0.5, 0.5);
-  transform: translate(141px, 0px) scale(0.5, 0.5);
+  -webkit-transform: translate(140px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(140px, 0px) scale(0.5, 0.5);
+  transform: translate(140px, 0px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;

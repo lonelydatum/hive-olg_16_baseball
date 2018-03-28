@@ -5,7 +5,7 @@
 
 
 .frame1 {
-	opacity: 1;
+	// opacity: 1;
 	.logos{
 		transform-origin: 50% 50%;
 		@include pos-scale(166, 2, .5);
@@ -14,6 +14,7 @@
 
 	#text1{
 		@include pos(13, 7);
+		// opacity: 0;
 		.t1b{
 			@include pos-scale(38, 0, 0.5);
 		}
@@ -31,13 +32,13 @@
 			@include pos-scale(0, 0, 0.5);
 		}
 		.t2b{
-			@include pos-scale(49, 1, 0.5);
+			@include pos-scale(50, 0, 0.5);
 		}
 		.t2c{
-			@include pos-scale(74, 1, 0.5);
+			@include pos-scale(73, 0, 0.5);
 		}
 		.t2d{
-			@include pos-scale(141, 0, 0.5);
+			@include pos-scale(140, 0, 0.5);
 		}
 	}
 }
